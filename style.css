@@ -1,0 +1,118 @@
+.left {
+
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+
+.left img {
+    width: 100px;
+    filter: invert(70%);
+    padding: 20px;
+}
+
+.left div {
+    text-align: center;
+    font-size: 25px;
+}
+
+.mid {
+    border: 2px solid white;
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+    background-color: #0bdeed;
+    border-radius: 20px;
+
+}
+
+.navigation {
+    display: inline-block;
+}
+
+.navigation li {
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+
+.navigation a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.navigation a:hover,
+.navigation a.active {
+    text-decoration: underline;
+    color: blue;
+}
+
+.class2 {
+    float: left;
+    color: wheat;
+    padding: 10px;
+
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+}
+
+.right {
+
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+
+}
+
+.button1 {
+    margin: 10px;
+    padding: 10px;
+    background-color: green;
+    color: whitesmoke;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 120px 500px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    left: 10px;
+    color: #000;
+}
+
+.formdata input {
+    display: block;
+    width: 250px;
+    height: 30px;
+    font-size: large;
+    text-align: center;
+    margin: 5px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.container button {
+    display: block;
+    margin: auto;
+    width: 250px;
+}
